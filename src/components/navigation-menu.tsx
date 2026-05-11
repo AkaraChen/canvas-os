@@ -27,7 +27,7 @@ export default function NavigationMenu() {
         </NavigationMenuItem>
         <NavigationMenuItem>
           <NavigationMenuLink asChild className={navigationMenuTriggerStyle()}>
-            <ExternalLink href="https://docs.luanroger.dev/electron-shadcn">
+            <ExternalLink href="https://github.com/AkaraChen/canvas-os">
               {t("documentation")}
             </ExternalLink>
           </NavigationMenuLink>
