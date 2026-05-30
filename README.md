@@ -1,8 +1,15 @@
-# electron-shadcn
+# CanvasOS
 
-Electron in all its glory. Everything you will need to develop your beautiful desktop application.
+CanvasOS is an **agent-native infinite canvas desktop shell prototype** built on Electron + React.
+This repository now ships a runnable MVP-style workspace that demonstrates:
 
-![Demo GIF](https://github.com/LuanRoger/electron-shadcn/blob/main/images/demo.png)
+- Infinite canvas basics (pan, zoom, block create/move/resize)
+- First-party blocks (Terminal, Git, Notes, Agent Task, Analysis)
+- Queue-first task lifecycle with anchor jump behavior
+- Agent assignment and approval-gated action flow
+- Structured local state for block, task, and agent run records
+
+The implementation follows the `Agent-native OS / Infinite Canvas Desktop PRD v0.1` direction and targets a Linux desktop shell app (not a custom kernel or distro).
 
 ## Libs and tools
 
@@ -77,7 +84,7 @@ npm install
 npm run start
 ```
 
-Now you can go directly to `/src/routes/index.tsx` and modify the app as you want.
+Now you can go directly to `/src/routes/index.tsx` and iterate on the CanvasOS MVP experience.
 
 > You can also delete the `/src/routes/second.tsx` file if you don't want a second page.
 
